@@ -1,0 +1,22 @@
+{
+  "game": "GTI Club: Rally Côte d'Azur",
+  "wikidata": "Q29888291",
+  "original": [
+    {
+      "region": "Europe",
+      "revision": "ver EAA (MAME: gticlub)"
+    }
+  ],
+  "system": "Arcade",
+  "type": "recomp",
+  "status": "released",
+  "targets": ["Wii"],
+  "toolchain": "WiiRevs",
+  "project": "GTI Club: Côte d'Azur for Wii",
+  "approach": "Konami PowerPC 403, SHARC DSP and 68000 sound programs statically translated to C; the 3D board and sound chips recreated on the Wii",
+  "notes": "Runs natively on a real Wii, launched with the Homebrew Channel. Sideways Wii Remote with tilt steering, Classic Controller and GameCube controller; rumble; 480p.",
+  "tags": ["konami", "racing", "wii"],
+  "maintainers": [{ "name": "WiiRevs", "link": "https://wiirevs.com" }],
+  "links": [{ "label": "WiiRevs", "url": "https://wiirevs.com" }],
+  "launchers": [{ "path": "gticlub.zip", "in": "release", "format": "zip" }]
+}
